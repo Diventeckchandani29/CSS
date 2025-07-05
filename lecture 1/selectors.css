@@ -1,0 +1,14 @@
+#test-elem{
+    color:blue;
+}
+.success{
+    color:cadetblue;
+}
+p.para{
+    color:lightcoral;
+}
+div p{
+    color: burlywood;
+}
+/* agar div>p kiya toh sirf first bacha */
+/*agar div space p kia toh sb bache ke color change*/
