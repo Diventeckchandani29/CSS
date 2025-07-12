@@ -1,0 +1,43 @@
+/*adjacent sibling selector*/
+/*neeche wala closest siblig*/
+p+h1{
+    color:aquamarine;
+}
+/*general sibling selector ~ neeche wale all siblings*/
+
+.p ~ h1{
+    color:blueviolet;
+}
+#box-model{
+   /* border-color: blueviolet;
+    border-width: 10px;
+    border-style:inherit;;*/
+
+    /*shorthand property*/
+
+    border:2px solid black;
+    width: 150px;
+    height: 150px;
+
+   /* padding-left: 100px;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    padding-right: 456px;*/
+
+    
+    /*shorthand property*/
+
+    /*top-bottom left-right*/
+
+    padding: 134px 50px 124px 200px;
+    
+    /*starting from top*/
+margin: 34px 45px 67px 200px;
+/*h2 ki bottom margin and div ki top margin will collapse together*/
+border-radius: 50%;
+/*50 percent of its corresponding dimension*/
+
+
+
+
+}
