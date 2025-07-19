@@ -1,0 +1,17 @@
+.button{
+       text-decoration: none;
+       border: 1px solid aquamarine;
+       border-radius: 5px;
+       padding: 5px;
+       background-color: aquamarine;
+       color: lightsalmon;
+       text-transform: uppercase;
+}
+.button-success{
+background-color: aquamarine;
+color: white;
+}
+.button-danger{
+    background-color: blue;
+    color: white;
+}

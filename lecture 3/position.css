@@ -1,0 +1,31 @@
+#div1{
+    position: static;
+}
+#div2{
+    position: relative;
+    left: 50px;
+    top: 100px;
+    bottom: 100px;
+    right: 50px; 
+}
+.container>div{
+    height: 100px;
+    width: 200px;
+    background-color: brown;
+    margin: 20px;
+    border: 2px solid black;
+
+}
+#div1{
+    background-color:beige;
+
+}
+#div2{
+    background-color: aqua;
+}
+#div3{
+    background-color: aquamarine;
+}
+#div4{
+    background-color: azure;
+}

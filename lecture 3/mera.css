@@ -1,0 +1,17 @@
+
+.image-container img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%; /* Makes images circular */
+  object-fit: cover; /* Ensures proper fit */
+  border: 20px solid grey; /* Optional border */
+  
+}
+.image-container>div{
+    display: inline-block;
+    width: calc(25% -24px<);
+    vertical-align: top;
+    text-align: centre;
+    margin: 12px;
+}
+

@@ -1,0 +1,50 @@
+/* reset styles */
+/* to reset all the padding and margin provided by user agent style sheets */
+/* where we can add consistant default styling for all browser */
+/* box sizing border box means dimensions will be considered till border
+ie including border */
+/* content box in this dimensions will be only considered for content section */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;    
+}
+.div1 ,.div2{
+    width: 400px;
+    margin: 200px;
+    padding: 5px;
+    border: 2px solid crimson;
+}
+.div2{
+    box-sizing: border-box;
+}
+.sp{
+    margin: 20px;
+    padding: 10px;
+    border: 2px solid seagreen;
+    display: inline-block;
+}
+/* inline means jitni jaga chiye utni lega and margin padding,widht
+not respected */
+/* block means puri jaga lega margin padding widhth are respected */
+/* inline block means combo of both jitni jaga chiye utni lega
+and margin,padding ,widhth are respected */
+
+.container{
+    width: 700px;
+    background-color: rgb(241, 146, 94);
+    height: 300px;
+}
+#div1{
+    background-color: darkgoldenrod;
+}
+#div2{
+    background-color: orange;
+}
+.container>div{
+    display: inline-block;
+    width: 50%;
+}
+/* incase of display inline block a space or multiple space b/w two inline block 
+elements takes up extra space on the screen thus 50% widhth to both the 
+elements would not work bcoz 1px is taken by the space  */
