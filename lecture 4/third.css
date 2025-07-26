@@ -1,0 +1,23 @@
+*{
+    box-sizing: border-box;
+
+
+
+.div1{
+        border: 2px solid black;
+        width:100vw;
+    }
+}
+#para1{
+    font-size: 3em;
+
+}
+p{
+    font-size: 30px;
+}
+span{
+    font-size: 2em;
+    width: 5em;
+    border: 20px solid black;
+    display: inline-block;
+}

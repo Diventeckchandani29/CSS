@@ -1,0 +1,19 @@
+#bell{
+    font-size: 100px;
+}
+#parent{
+    width: 900px;
+    height: 500px;
+}
+#child{
+    width: 50%;
+    height: 50%;
+    margin:auto;
+}
+#parent, #child{
+    border: 2px solid black;
+}
+.second{
+    border:2px solid black;
+    width: 60vh;
+}

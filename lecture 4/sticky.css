@@ -1,0 +1,17 @@
+#heading1{
+    position: sticky;
+    top: 0px;
+    background-color: darkgoldenrod
+    color(srgb rgb(89, 24, 24) green blue);
+}
+#main-div{
+    border: 2px solid black;
+}
+#fixed-div{
+    position: fixed;
+    top: 0;
+    right:0;
+    background-color:red;
+    color: aqua;
+    z-index: 8;
+}
