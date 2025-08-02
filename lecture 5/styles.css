@@ -1,0 +1,32 @@
+p{
+    border: 2px solid peachpuff;
+}
+.flex-container{
+    display: flex;
+}
+.boxes{
+    display: flex;
+    border: 2px solid red;
+    width: 400px;
+    flex-wrap: wrap;
+    height: 500px;
+    
+}
+.boxes>div{
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    flex-shrink: 0;
+}
+.parent{
+    border: 2px solid red;
+    flex-direction: column;
+    justify-content: space-evenly;
+    
+}
+.parent-second{
+    justify-content: center;
+    border: 2px solid black;
+    height: 500px;
+    align-items: center;
+}
