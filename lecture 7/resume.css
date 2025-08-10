@@ -1,0 +1,32 @@
+body{
+    font-family: sans-serif;
+    margin: 0;
+    background: WHITE;
+    color:grey;
+}
+*{
+    box-sizing: border-box;
+}
+.main-container{
+    width: 70%;
+    height: 20px;
+    margin:auto;
+}
+.italianno-regular {
+  font-family: "Italianno", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+.resume{
+    max-width: 900px;
+    margin: 20px auto;
+    background: white;
+    padding: 20px;
+    box-shadow:black;
+}
+.header{
+    display: flex;
+    gap: 20px;
+    border-bottom: 1px solid black;
+    padding-bottom: 20px;
+}
