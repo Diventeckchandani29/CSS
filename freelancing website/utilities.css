@@ -1,0 +1,53 @@
+/*layout utilities start*/
+.d-flex{
+    display: flex;
+}
+
+.d-flex-col{
+    display: flex;
+    flex-direction: column;
+}
+
+.justify-content-center{
+    justify-content: center;
+}
+
+.align-items-center{
+    align-items: center;
+}
+.row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/*layout utilities end*/
+
+/*button utilities*/
+.btn{
+    text-decoration: none;
+    padding: 1rem;
+    border-radius: 5px;
+}
+.btn-success{
+    background-color: #28a745;
+    color: white;
+}
+/*button utilities end*/
+
+/*text utilities*/
+.text-success{
+    color:  #28a745;
+}
+.text-muted{
+    color: gray;
+}
+.text-white{
+    color: white;
+}
+/*text utilities ends*/
+
+/*width height utilities starts*/
+.w-100{
+    width: 100%;
+}
+/*width height utilities ends*/
